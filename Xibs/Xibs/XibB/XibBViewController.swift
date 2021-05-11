@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol XibBViewControllerDelegate: class {
+protocol XibBViewControllerDelegate: AnyObject {
     func dismiss()
 }
 

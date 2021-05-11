@@ -7,7 +7,7 @@
 
 import AVFoundation
 
-protocol XibAViewModelDelegate: class {
+protocol XibAViewModelDelegate: AnyObject {
     func dismiss()
 }
 
