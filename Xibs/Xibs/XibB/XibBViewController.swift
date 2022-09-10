@@ -18,7 +18,7 @@ class XibBViewController: UIViewController {
     
     init(viewModel: XibBViewModel) {
         self.viewModel = viewModel
-        super.init(nibName: nil, bundle: nil)
+        super.init(nibName: nil, bundle: Bundle(for: Self.self))
     }
     
     required init?(coder: NSCoder) {
