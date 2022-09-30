@@ -11,11 +11,12 @@ import Core
 public class XibBCoordinator: Coordinator {
     let presenter: UIViewController
     let viewController: XibBViewController
+    let viewModel = XibBViewModel()
     
     
     public init(presenter: UIViewController) {
         self.presenter = presenter
-        viewController = XibBViewController(viewModel: XibBViewModel())
+        viewController = XibBViewController(viewModel: viewModel)
     }
     
     public func start() {

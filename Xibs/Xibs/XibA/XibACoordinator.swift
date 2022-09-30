@@ -15,7 +15,7 @@ public class XibACoordinator: Coordinator {
     
     public init(presenter: UIViewController) {
         self.presenter = presenter
-        viewController = XibAViewController(viewModel: XibAViewModel())
+        viewController = XibAViewController(viewModel: viewModel)
     }
     
     public func start() {
