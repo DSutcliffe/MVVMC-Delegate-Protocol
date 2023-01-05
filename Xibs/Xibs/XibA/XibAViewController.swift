@@ -25,7 +25,7 @@ class XibAViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor.green
-
+        backButton.setTitle("Back", for: .normal)
     }
 
     @IBAction func backButtonPressed(_ sender: UIButton) {

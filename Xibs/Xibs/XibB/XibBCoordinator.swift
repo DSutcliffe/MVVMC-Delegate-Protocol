@@ -13,7 +13,6 @@ public class XibBCoordinator: Coordinator {
     let viewController: XibBViewController
     let viewModel = XibBViewModel()
     
-    
     public init(presenter: UIViewController) {
         self.presenter = presenter
         viewController = XibBViewController(viewModel: viewModel)

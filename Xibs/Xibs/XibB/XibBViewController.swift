@@ -30,6 +30,8 @@ class XibBViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.view.backgroundColor = UIColor.blue
+        backButton.setTitle("Back", for: .normal)
     }
 
     @IBAction func backButtonPressed(_ sender: UIButton) {

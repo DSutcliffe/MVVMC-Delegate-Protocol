@@ -7,7 +7,7 @@
 
 import UIKit
 
-import Core         /// Add framework(s) to Scheme General Tab
+import Core         /// Add additional framework(s) to Scheme General Tab
 import Storyboards
 import Xibs
 
