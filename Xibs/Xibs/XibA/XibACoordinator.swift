@@ -16,7 +16,7 @@ public class XibACoordinator: Coordinator {
     public init(presenter: UIViewController) {
         self.presenter = presenter
         /// Back button was failing because I was using a new instance "viewModel: XibAViewModel()" rather than the original initialised instance
-        viewController = XibAViewController(viewModel: XibAViewModel())
+        viewController = XibAViewController(viewModel: viewModel)
     }
     
     public func start() {
